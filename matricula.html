@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matrícula</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<link rel="icon" href="img/logo.jpeg" type="image/png">
+<header class="logo" id="logo">
+    <img src="img/logo.jpeg" alt="110px" width="110px" height="110px">
+</header>
+<div class="fondo" id="fondo">
+    <header class="">
+        <div class="container animate-fade">
+            <h1 class="titulo">Bienvenidos al Liceo del Pacífico</h1>
+            <center>
+                <p class="letras" id="letras">🌟Formamos Futuros líderes del comercio Colombiano.</p>
+            </center>
+        </div>
+    </header>
+
+    <body>
+
+        <ul class="navigation">
+            <li class="active">
+                <a href="index.html">
+                    <span class="icon"><ion-icon name="home-outline"></ion-icon></span>
+                    <span class="text">Inicio</span>
+                </a>
+            </li>
+
+            <li>
+                <a href="nosotros.html">
+                    <span class="icon"><ion-icon name="people-outline"></ion-icon></span>
+                    <span class="text">Sobre Nosotros</span>
+                </a>
+            </li>
+
+            <li>
+                <a href="ofertas.html">
+                    <span class="icon"><ion-icon name="pricetags-outline"></ion-icon></span>
+                    <span class="text">Ofertas</span>
+                </a>
+            </li>
+
+            <li>
+                <a href="contacto.html">
+                    <span class="icon"><ion-icon name="call-outline"></ion-icon></span>
+                    <span class="text">Contacto</span>
+                </a>
+            </li>
+        </ul>
+
+
+        <script src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+
+        <?php include 'navbar.html'; ?>
+
+
+        <section>
+            <section class="from-title" id="from-title">
+                <h2 class="fw-bold text-center mb-4">🗳️MATRÍCULAS</h2>
+            </section>
+            <div class="card shadow-sm p-4 animate-fade">
+
+                <form action="gracias-matricula.html">
+
+                    <center>
+                        <h3>🏫 Bienvenido al Formulario de Inscripción</h3>
+
+                        <br>
+                        <p>
+
+                            El Liceo del Pacífico, le alegra que quieras hacer parte de nuestra comunidad educativa.
+                            A través de este formulario podrás registrar tus datos de manera rápida y segura para
+                            iniciar el
+                            proceso de matrícula.
+
+                            Por favor completa la información solicitada con atención.
+                            Nuestro equipo revisará tu solicitud y se comunicará contigo para continuar con los
+                            siguientes
+                            pasos.
+
+                            📚 ¡Tu futuro comienza aquí!
+                            📝 Gracias por confiar en nosotros.
+                        </p>
+                    </center>
+                    <label class="form-label fw-bold">Nombre completo del estudiante</label>
+                    <input type="text" class="form-control mb-3" required placeholder="Ingresa el nombre aquí">
+
+                    <label class="form-label fw-bold">Edad del estudiante</label>
+                    <input type="number" class="form-control mb-3" required
+                        placeholder="Ingresa la edad del estudiante">
+
+                    <label class="form-label fw-bold">Documento de identidad</label>
+                    <input type="number" class="form-control mb-3" required
+                        placeholder="Ingresa el número de documento">
+
+                    <label class="form-label fw-bold">Documento del estudiante</label>
+                    <input type="file" class="form-control mb-3" required placeholder="Ingresa el documento aquí">
+
+                    <label class="form-label fw-bold">Fecha de nacimiento del estudiante</label>
+                    <input type="date" class="form-control mb-3" required placeholder="Ingresa la fecha de nacimiento">
+
+                    <label class="form-label fw-bold">Boletin ultimo año del estudiante</label>
+                    <input type="file" class="form-control mb-3" required placeholder="Ingresa documento aquí">
+
+                    <label class="form-label fw-bold">Foto 3x4 fondo blanco del estudiante</label>
+                    <input type="file" class="form-control mb-3" required placeholder="Ingresa la imagen aquí">
+
+                    <label class="form-label fw-bold">EPS del estudiante</label>
+                    <input type="text" class="form-control mb-3" required placeholder="Ingresa la EPS del aquí">
+
+                    <label class="form-label fw-bold">Nombre del acudiente</label>
+                    <input type="text" class="form-control mb-3" required placeholder="Ingresa el nombre del acudiente">
+
+                    <label class="form-label fw-bold">Teléfono del acudiente</label>
+                    <input type="number" class="form-control mb-3" required
+                        placeholder="Ingresa el teléfono del acudiente">
+
+                    <h3>GRADO A MATRICULAR</h3>
+
+                    <label class="form-label fw-bold">PRIMARIA</label>
+                    <select class="form-control mb-3" opcional>
+
+                        <option>Preescolar</option>
+                        <option>Primero (1)</option>
+                        <option>Segundo (2)</option>
+                        <option>Tercero (3)</option>
+                        <option>Cuarto (4)</option>
+                        <option>Quinto (5)</option>
+                    </select>
+                    <label class="form-label fw-bold">SECUNDARIA</label>
+                    <select class="form-control mb-3" opcional>
+
+                        <option>Sexto (6)</option>
+                        <option>Séptimo (7)</option>
+                        <option>Octavo (8)</option>
+                        <option>Noveno (9)</option>
+                    </select>
+
+                    <label class="form-label fw-bold">MEDIA TECNICA</label>
+                    <select class="form-control mb-3" opcional>
+
+                        <option>Decimo (10)</option>
+                        <option>Once (11)</option>
+                    </select>
+
+                    <label class="form-label fw-bold">CAMINANDO EN SECUNDARIA (TARDE)</label>
+                    <select class="form-control mb-3" opcional>
+
+                        <option>Sexto-Septimo (6-7)</option>
+                        <option>Octavo-Noveno (8-9)</option>
+                        <option>Decimo-Once (10-11)</option>
+                    </select>
+
+                    <label class="form-label fw-bold">CAMINANDO EN SECUNDARIA (NOCTURNA)</label>
+                    <select class="form-control mb-3" opcional>
+
+                        <option>Sexto-Septimo (6-7)</option>
+                        <option>Octavo-Noveno (8-9)</option>
+                        <option>Decimo-Once (10-11)</option>
+                    </select>
+
+                    <label class="form-label fw-bold">CAMINANDO EN SECUNDARIA (SABATINO)</label>
+                    <select class="form-control mb-3" opcional>
+
+                        <option>Sexto-Septimo (6-7)</option>
+                        <option>Octavo-Noveno (8-9)</option>
+                        <option>Decimo-Once (10-11)</option>
+                    </select>
+
+                    <button class="btn btn-primary rounded-pill px-4">Enviar matrícula</button>
+
+                </form>
+            </div>
+        </section>
+
+        <footer class="bg-dark text-white text-center py-3">
+            © 2025 Liceo del Pacífico
+        </footer>
+
+    </body>
+</div>
+
+</html>
